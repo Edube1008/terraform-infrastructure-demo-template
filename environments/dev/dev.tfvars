@@ -1,5 +1,3 @@
-module "s3_bucket" {
-  source         = "./modules/s3"
   bucket_name    = "tinademobucket"
   lifecycle_days = 30
 
@@ -12,4 +10,4 @@ module "s3_bucket" {
     DataSentivity    = ""
     APMID            = ""
   }
-}
+
